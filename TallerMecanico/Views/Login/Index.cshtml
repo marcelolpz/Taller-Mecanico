@@ -5,7 +5,9 @@
     Layout = "~/Views/Shared/_LayoutLogin.cshtml";
 }
 
-<div class="row-6">
+
+<div class="fondo-login">
+    
     @if (!string.IsNullOrEmpty(@ViewBag.Error))
     {
         <div class="@ViewBag.ClaseMensaje" role="alert" id="success-alert">
@@ -13,34 +15,37 @@
         </div>
     }
 
-    <div class="main">
-        <div class="login">
+   
+    <div class="left-login">
+        <div class="main">
+            <div class="login">
 
-            <div class="inset">
-                <!--start main-->
+                <div class="insert">
+                    <!--start main-->
 
-                <form method="post" asp-action="Index">
-                    <div>
-                        <label asp-for="Email" class="control-label"></label>
-                        <input asp-for="Email" class="form-control" />
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-                    <div>
-                        <label asp-for="Password" class="control-label"></label>
-                        <input type="password" asp-for="Password" class="form-control" />
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
-                    <br />
-
-                    <div class="sign">
-                        <div class="submit">
-                            <input type="submit" value="Iniciar Sesión" />
+                    <form method="post" asp-action="Index">
+                        <div>
+                            <label asp-for="Email" class="control-label"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
                         </div>
+                        <div>
+                            <label asp-for="Password" class="control-label"></label>
+                            <input type="password" asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <br />
 
-                        <div class="clear"> <br /> <br /> </div>
-                    </div>
-                </form>
+                        <div class="sign">
+                            <div class="submit">
+                                <input type="submit" value="Iniciar Sesión" />
+                            </div>
 
+                            <div class="clear"> <br /> <br /> </div>
+                        </div>
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>
