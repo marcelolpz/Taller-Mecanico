@@ -15,6 +15,7 @@ namespace TallerMecanico.Models.Domain.Config
                 builder.Property(s => s.Apellido).HasColumnType("varchar(100)").HasColumnName("Apellido");
                 builder.Property(s => s.Correo).HasColumnType("varchar(100)").HasColumnName("Correo");
                 builder.Property(s => s.Password).HasColumnType("varchar(100)").HasColumnName("Password");
+                builder.Property(s => s.recovery).HasColumnType("varchar(255)").HasColumnName("Recovery_token");
             }
         }
 

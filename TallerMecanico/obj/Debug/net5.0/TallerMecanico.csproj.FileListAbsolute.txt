@@ -441,3 +441,5 @@ C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.
 C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Usuario\Eliminar.cshtml.g.cs
 C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
 C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Access\StartRecovery.cshtml.g.cs
+C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Access\Recovery.cshtml.g.cs
