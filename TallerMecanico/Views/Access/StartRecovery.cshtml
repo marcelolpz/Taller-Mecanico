@@ -13,12 +13,38 @@
                 <strong> @ViewBag.Error</strong>
             </div>
         }
-        <span class="title">Recuperación de contraseña.</span>
-        <p class="description">Se le enviara un enlace a su correo electronico donde podra cambiar su contraseña.</p>
-        <div>
-            @Html.TextBoxFor(d=>d.Email,null,new{@class="form-control"})
-            <button>Recuperar</button>
+
+        <ul>
+            <li style="color:white;"> <i class="bi bi-gear-fill"></i> Taller Mecánico Ensigna</li>
+
+        </ul>
+
+
+        <br>
+        <br>
+        <div class="card" style="text-align:center;">
+
+            <div class="card-header" style="background-color:#060724; color: white;"> Recuperación de contraseña</div>
+            <br>
+
+            <div class="alert alert-info">
+                <p class="description"><i class="bi bi-info-circle-fill"></i> Se le enviará un enlace a su correo electrónico donde podra cambiar su contraseña.</p>
+            </div>
+
+
+            @Html.TextBoxFor(d=>d.Email,null,new{@class="form-control custom-input"})
+            <br>
+            <br>
+            <div class="submit">
+                <input type="submit" id="button-recovery" value=" Recuperar" />
+            </div>
+
         </div>
-        @Html.ValidationMessageFor(d=>d.Email,null,new {style = "color:red"})
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                @Html.ValidationMessageFor(d => d.Email)
+            </div>
+        }
     </form>
 </div>

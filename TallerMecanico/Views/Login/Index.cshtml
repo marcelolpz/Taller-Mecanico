@@ -39,7 +39,14 @@
                     <input type="password" asp-for="Password" class="form-control" placeholder="Ingrese la clave" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
+
+
+
                 <br />
+
+                <div class="form-section mt-3">
+                    @Html.ActionLink("Olvido su contraseña?","StartRecovery","Access")
+                </div>
                 
                 <div class="sign" id="button-position">
                     <div class="submit">
