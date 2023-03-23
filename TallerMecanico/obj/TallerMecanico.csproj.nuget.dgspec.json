@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcelo Lopez\\Documents\\GitHub\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj": {}
+    "C:\\xampp\\htdocs\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcelo Lopez\\Documents\\GitHub\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj": {
+    "C:\\xampp\\htdocs\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcelo Lopez\\Documents\\GitHub\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj",
         "projectName": "TallerMecanico",
-        "projectPath": "C:\\Users\\Marcelo Lopez\\Documents\\GitHub\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj",
-        "packagesPath": "C:\\Users\\Marcelo Lopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcelo Lopez\\Documents\\GitHub\\TallerMecanico\\TallerMecanico\\obj\\",
+        "projectPath": "C:\\xampp\\htdocs\\TallerMecanico\\TallerMecanico\\TallerMecanico.csproj",
+        "packagesPath": "C:\\Users\\Marcela Sauceda\\.nuget\\packages\\",
+        "outputPath": "C:\\xampp\\htdocs\\TallerMecanico\\TallerMecanico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Marcelo Lopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Marcela Sauceda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
