@@ -5,9 +5,13 @@
     Layout = "~/Views/Shared/_LayoutLogin.cshtml";
 }
 
+<<<<<<< HEAD
 
 <div class="fondo-login">
 
+=======
+<div class="row-6">
+>>>>>>> fd03c748c054339db6d00c419c2bf192bcff98b0
     @if (!string.IsNullOrEmpty(@ViewBag.Error))
     {
         <div class="@ViewBag.ClaseMensaje" role="alert" id="success-alert">
@@ -15,11 +19,47 @@
         </div>
     }
 
+<<<<<<< HEAD
 
     <div class="left-login">
 
         <div class="titulo-login">
             <h1>Taller Mecánico Ensigna</h1>
+=======
+    <div class="main">
+        <div class="login">
+
+            <div class="inset">
+                <!--start main-->
+
+                <form method="post" asp-action="Index">
+                    <div>
+                        <label asp-for="Email" class="control-label"></label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div>
+                        <label asp-for="Password" class="control-label"></label>
+                        <input type="password" asp-for="Password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-section mt-3">
+                        @Html.ActionLink("Olvido su contraseña?","StartRecovery","Access")
+                    </div>
+                    <br />
+
+                    <div class="sign">
+                        <div class="submit">
+                            <input type="submit" value="Iniciar Sesión" />
+                        </div>
+
+                        <div class="clear"> <br /> <br /> </div>
+                    </div>
+                </form>
+
+            </div>
+>>>>>>> fd03c748c054339db6d00c419c2bf192bcff98b0
         </div>
         <div class="titulo-inicio">
             <h2>Iniciar Sesión</h2>

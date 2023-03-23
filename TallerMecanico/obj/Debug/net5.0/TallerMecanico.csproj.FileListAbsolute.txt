@@ -441,6 +441,8 @@ C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.
 C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Usuario\Eliminar.cshtml.g.cs
 C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Shared\_LayoutLogin.cshtml.g.cs
 C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Access\StartRecovery.cshtml.g.cs
+C:\Users\Axcel Leonel\source\repos\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Access\Recovery.cshtml.g.cs
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\bin\Debug\net5.0\appsettings.json
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\bin\Debug\net5.0\TallerMecanico.exe
@@ -862,6 +864,8 @@ C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\TallerMecanico.TagHelpers.input.cache
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\TallerMecanico.TagHelpers.output.cache
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\TallerMecanico.RazorCoreGenerate.cache
+C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Access\Recovery.cshtml.g.cs
+C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Access\StartRecovery.cshtml.g.cs
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
