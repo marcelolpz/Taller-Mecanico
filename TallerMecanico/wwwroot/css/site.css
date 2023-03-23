@@ -3,9 +3,7 @@ for details on configuring this project to bundle and minify static web assets. 
 
 
 .fondo-login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display:flex;
     background-image: url("../img/Login_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,10 +11,7 @@ for details on configuring this project to bundle and minify static web assets. 
     width: 100vw;
     margin: 0;
     padding: 0;
-    background-position: left;
 }
-
-
 
 
 a.navbar-brand {
@@ -89,7 +84,6 @@ body {
     min-width: 100%;
     /* Ajusta la imagen de fondo para cubrir todo el contenedor */
     object-fit: cover;
-    object-position: center center;
     z-index: -1;
     overflow-x: hidden;
 }
@@ -104,7 +98,59 @@ body {
 
 .left-login{
     color: white;
-    padding-right: 1060px;
-    padding-left: 200px;
-    width: 950px;
+    width: 900px;
+    margin: 250px 0px 0px 5px;
+    padding: 0px 10px 0px 50px;
+}
+
+.social-buttons {
+    display: block;
+    margin: 10px auto;
+    padding: 70px 0px 0px 120px;
+    font-size: 45px;
+    color: white;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.titulo-login{
+    text-align: center;
+    margin: 0px 5px 10px 55px;
+    padding: 0px 5px 70px 100px;
+}
+
+.titulo-login h1{
+    font-size: 62px;
+}
+.titulo-inicio {
+    text-align: center;
+    margin: 0px 5px 10px 55px;
+    padding: 0px 10px 20px 70px;
+}
+.titulo-inicio h2{
+    font-size: 36px;
+}
+
+#form-design{
+    padding: 0px 50px 0px 160px;
+}
+
+#button-position {
+    text-align: center;
+    margin: 0px 5px 10px 5px;
+    padding: 10px 5px 5px 5px;
+}
+
+.input-login{
+    padding: 0px 80px 0px 110px;
+}
+
+#button-shape{
+    border: none;
+    background-color:coral;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    color:white;
 }
