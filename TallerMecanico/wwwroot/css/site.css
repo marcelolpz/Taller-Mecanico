@@ -106,7 +106,7 @@ body {
 .social-buttons {
     display: block;
     margin: 10px auto;
-    padding: 70px;
+    padding: 70px 0px 0px 120px;
     font-size: 45px;
     color: white;
     width: 300px;
@@ -133,13 +133,13 @@ body {
 }
 
 #form-design{
-    padding: 0px 10px 0px 35px;
+    padding: 0px 50px 0px 160px;
 }
 
 #button-position {
     text-align: center;
-    margin: 0px 5px 10px 55px;
-    padding: 0px 5px 5px 10px;
+    margin: 0px 5px 10px 5px;
+    padding: 10px 5px 5px 5px;
 }
 
 .input-login{
