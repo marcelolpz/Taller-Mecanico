@@ -13,6 +13,7 @@ namespace TallerMecanico.Models.Domain.Entities
         public DateTime CreatedDate { get; set; }
         public Rol Rol { get; set; }
         public Guid RolId { get; set; }
+        public string recovery { get; set; }
 
         public static Usuario Create(string nombre, string apellido, string correo, string password, Guid rolId)
         {

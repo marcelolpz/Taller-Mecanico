@@ -78,7 +78,7 @@ namespace TallerMecanico.Controllers
                 registro.Nombre,
                 registro.Apellido,
                 registro.Correo,
-                registro.Password,
+                Utilidades.Utilidades.GetMD5(registro.Password),
                 registro.RolId
             );
 
