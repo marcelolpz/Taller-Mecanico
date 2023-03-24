@@ -5,8 +5,15 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Eliminar</h1>
+<br>
+<br>
+<div class="div-insertar" style="display: flex; align-items: center;">
+    <i class="bi bi-person-fill" style="font-size: 1.5rem; color: #ffff;"></i>
+    <h3 style="margin-left: 10px;">Eliminar usuario</h3>
+</div>
 
+<br>
+<br>
 <div>
     <form method="post" asp-action="Eliminar">
         <div class="row">
@@ -21,7 +28,8 @@
                     </div>
                 }
             </div>
-        </div>
+        </div> 
+        <div class="card div-eliminar ">
         <input asp-for="UsuarioId" type="hidden" class="form-control" />
         <input asp-for="Password" readonly type="hidden" class="form-control" />
         <div class="form-group">
@@ -43,6 +51,7 @@
             <input type="submit" value="Eliminar" class="btn btn-success" />
             <a class="btn btn-danger" asp-area="" asp-controller="Usuario" asp-action="Index">Cancelar</a>
 
+        </div>
         </div>
     </form>
 </div>

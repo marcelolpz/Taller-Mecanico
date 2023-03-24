@@ -5,8 +5,15 @@
 }
 
 <form asp-action="Insertar" method="get">
-    <input class="btn btn-outline-dark" type="submit" value="Agregar Registro" />
+    <br>
+    <br>
+    <div style="position: relative; margin-left: 10px">
+        <input class="btn btn-outline-dark" type="submit" value=" Agregar Registro">
+        <i class="bi bi-plus-lg" style="position: absolute; top: 52%; left: 18px; transform: translate(-50%, -50%);"></i>
+    </div>
 
+    <br>
+    <br>
     <div class="row">
         <div class="danger">
             @if (TempData["mensaje"] != null)
@@ -24,13 +31,20 @@
 @if (Model.Count > 0)
 {
     <div class="Scroll">
+
+        <div style="display: flex; align-items: center;">
+            <i class="bi bi-person-fill" style="font-size: 1.5rem; color: #ffff;"></i>
+            <h3 style="margin-left: 10px;">Lista de usuarios</h3>
+        </div>
+        <div class="table-container-div">
         <table class="table table-striped table-hover table-bordered">
             <thead>
                 <tr>
-                    <th scope="col"> Id Usuario </th>
+                    <th scope="col"> Id del usuario </th>
                     <th scope="col"> Nombre </th>
                     <th scope="col"> Apellido </th>
-                    <th scope="col"> Correo </th>
+                    <th scope="col"> Correo electrónico </th>
+                    <th scope="col"> Acciones </th>
                 </tr>
             </thead>
             <tbody>
@@ -50,5 +64,6 @@
                 }
             </tbody>
         </table>
+        </div>
     </div>
 }

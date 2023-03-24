@@ -5,8 +5,15 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Insertar</h1>
+<br>
+<br>
+<div class="div-insertar" style="display: flex; align-items: center;">
+    <i class="bi bi-person-fill" style="font-size: 1.5rem; color: #ffff;"></i>
+    <h3 style="margin-left: 10px;">Insertar usuarios</h3>
+</div>
 
+<br>
+<br>
 <div>
 
     <form method="post" asp-action="Insertar">
@@ -23,35 +30,36 @@
                 }
             </div>
         </div>
+        <div class="card">
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label"></label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Correo" class="control-label"></label>
+                <input asp-for="Correo" class="form-control" />
+                <span asp-validation-for="Correo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RolId" class="control-label"></label>
+                @Html.DropDownList("RolId", Model.Roles, "Seleccione un Rol", new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Insertar" class="btn btn-success" />
+                <a class="btn btn-danger" asp-area="" asp-controller="Usuario" asp-action="Index">Cancelar</a>
 
-        <div class="form-group">
-            <label asp-for="Nombre" class="control-label"></label>
-            <input asp-for="Nombre" class="form-control" />
-            <span asp-validation-for="Nombre" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Apellido" class="control-label"></label>
-            <input asp-for="Apellido" class="form-control" />
-            <span asp-validation-for="Apellido" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Correo" class="control-label"></label>
-            <input asp-for="Correo" class="form-control" />
-            <span asp-validation-for="Correo" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="Password" class="control-label"></label>
-            <input asp-for="Password" type="password" class="form-control" />
-            <span asp-validation-for="Password" class="text-danger"></span>
-        </div>
-        <div class="form-group">
-            <label asp-for="RolId" class="control-label"></label>
-            @Html.DropDownList("RolId", Model.Roles, "Seleccione un Rol", new { @class = "form-control" })
-        </div>
-        <div class="form-group">
-            <input type="submit" value="Insertar" class="btn btn-success" />
-            <a class="btn btn-danger" asp-area="" asp-controller="Usuario" asp-action="Index">Cancelar</a>
-
+            </div>
         </div>
     </form>
 

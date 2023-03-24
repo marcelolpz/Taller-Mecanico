@@ -5,9 +5,17 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Editar</h1>
+<br>
+<br>
+<div class="div-insertar" style="display: flex; align-items: center;">
+    <i class="bi bi-person-fill" style="font-size: 1.5rem; color: #ffff;"></i>
+    <h3 style="margin-left: 10px;">Editar usuario</h3>
+</div>
+<br>
+<br>
 
 <div>
+    <div class="card">
     <form method="post" asp-action="Editar">
         <div class="row">
             <div class="danger">
@@ -48,5 +56,7 @@
             <a class="btn btn-danger" asp-area="" asp-controller="Usuario" asp-action="Index">Cancelar</a>
 
         </div>
+
     </form>
+    </div>
 </div>
