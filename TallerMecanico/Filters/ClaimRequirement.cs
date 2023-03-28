@@ -19,6 +19,7 @@ namespace TallerMecanico.Filters
     public class ClaimRequirementFilter : IAuthorizationFilter
     {
         private UsuarioLoginVm UsuarioObjeto;
+       
         readonly ModuloVm _claim;
 
         public ClaimRequirementFilter(ModuloVm claim)
@@ -31,6 +32,7 @@ namespace TallerMecanico.Filters
             try
             {
                 string sesionBase64 = filterContext.HttpContext.Session.GetString("usuarioObjeto");
+                
                 if (string.IsNullOrEmpty(sesionBase64))
                 {
                     filterContext.Result = new RedirectResult("~/Login/Index?Codigo=1");
@@ -39,6 +41,7 @@ namespace TallerMecanico.Filters
                 var base64EncodedBytes = System.Convert.FromBase64String(sesionBase64);
                 var sesion = System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
                 UsuarioObjeto = JsonConvert.DeserializeObject<UsuarioLoginVm>(sesion);
+              
 
                 if (UsuarioObjeto == null)
                 {
@@ -61,6 +64,9 @@ namespace TallerMecanico.Filters
                     return;
                 }
             }
+
+
+
             catch (Exception)
             {
                 filterContext.Result = new RedirectResult("~/Home/Index?Codigo=1");

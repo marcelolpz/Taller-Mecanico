@@ -888,3 +888,7 @@ C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\TallerMecanico.pdb
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\TallerMecanico.genruntimeconfig.cache
 C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\ref\TallerMecanico.dll
+C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Estado\Index.cshtml.g.cs
+C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Estado\Editar.cshtml.g.cs
+C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Estado\Eliminar.cshtml.g.cs
+C:\Users\Marcelo Lopez\Documents\GitHub\TallerMecanico\TallerMecanico\obj\Debug\net5.0\Razor\Views\Estado\Insertar.cshtml.g.cs

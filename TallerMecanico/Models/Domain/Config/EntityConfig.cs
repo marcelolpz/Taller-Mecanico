@@ -65,5 +65,15 @@ namespace TallerMecanico.Models.Domain.Config
             }
 
         }
+
+        public class EstadoConfig : IEntityTypeConfiguration<Estado>
+        {
+            public void Configure(EntityTypeBuilder<Estado> builder)
+            {
+
+                builder.HasKey(e => e.idEstado);
+                builder.Property(s => s.Nombre).HasColumnType("varchar(25)").HasColumnName("Nombre");
+            }
+        }
     }
 }

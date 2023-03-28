@@ -8,10 +8,11 @@ namespace TallerMecanico.Models.Domain
     {
         public TallerMecanicoDBContext(DbContextOptions<TallerMecanicoDBContext> options) : base(options) { }
         public DbSet<Usuario> Usuario { get; set; }
-        public DbSet<Rol> Rol { get; set; }
+        public DbSet<Rol> Rol { get; set; } 
         public DbSet<Modulo> Modulo { get; set; }
         public DbSet<AgrupadoModulos> AgrupadoModulos { get; set; }
         public DbSet<ModulosRoles> ModulosRoles { get; set; }
+        public DbSet<Estado> Estados { get; set; }   
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -21,6 +22,7 @@ namespace TallerMecanico.Models.Domain
             modelBuilder.ApplyConfiguration(new ModuloConfig());
             modelBuilder.ApplyConfiguration(new AgrupadoModulosConfig());
             modelBuilder.ApplyConfiguration(new ModulosRolesConfig());
+            modelBuilder.ApplyConfiguration(new EstadoConfig());
         }
     }
 }

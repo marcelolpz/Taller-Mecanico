@@ -97,9 +97,10 @@ body {
 }
 
 .left-login {
+    display: flex;
     color: white;
-    width: 600px;
-    margin: 190px 0 0 200px;
+    width: 720px;
+    margin: 180px 10px 50px 20px;
     padding: 0;
 }
 
@@ -261,8 +262,8 @@ div > h3 {
 }
 
 .div-insertar{
-    width: 1590px;
-    margin-left: 200px;
+    width: 2400px;
+    margin-left: 10px;
 }
 
 .div-eliminar {
