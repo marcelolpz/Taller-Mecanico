@@ -53,6 +53,7 @@ namespace TallerMecanico.Controllers
 
         public IActionResult Insertar(EstadoVM registro)
         {
+            
             var ListaEstados = _context.Estados.Where(w => w.Eliminado == false).ProjectToType<EstadoVM>().ToList();
             List<SelectListItem> itemsTaxis = ListaEstados.ConvertAll(t =>
             {
@@ -133,7 +134,8 @@ namespace TallerMecanico.Controllers
 
             var registroActual = _context.Estados.FirstOrDefault(w => w.idEstado == registro.idEstado);
             registroActual.Update(
-                registro.Nombre);
+                registro.Nombre
+                );
             _context.SaveChanges();
 
             return RedirectToAction("Index");
