@@ -271,3 +271,8 @@ div > h3 {
     height: 400px;
     margin-left: 270px;
 }
+
+#botonRecovery {
+    background-color: green;
+    color: white;
+}
